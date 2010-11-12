@@ -7,7 +7,6 @@ var server = net.createServer(function(stream) {
   stream.setEncoding('utf8');
 
   stream.on('connect', function() {
-    stream.
     stream.write("Hello!\r\n");
   });
 
