@@ -24,5 +24,5 @@ var server = net.createServer(function(stream) {
   });
 });
 
-server.listen(9100);
-console.log("TCP listening on port 9100");
+server.listen(0x1FA5);
+console.log("TCP listening on port 8101");
